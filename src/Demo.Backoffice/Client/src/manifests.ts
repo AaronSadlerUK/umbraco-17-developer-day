@@ -14,5 +14,22 @@ export const manifests: Array<UmbExtensionManifest> = [
                 match: "Umb.Section.Content"
             }
         ]
+    },
+    {
+        name: "Demo Backoffice Workspace View",
+        alias: "Demo.Backoffice.WorkspaceView",
+        type: "workspaceView",
+        js: () => import("./elements/example-workspace-view"),
+        meta: {
+            label: "Demo",
+            icon: "icon-users",
+            pathname: "demo"
+        },
+        conditions: [
+            {
+                alias: "Umb.Condition.WorkspaceAlias",
+                match: "Umb.Workspace.User"
+            }
+        ]
     }
 ];
