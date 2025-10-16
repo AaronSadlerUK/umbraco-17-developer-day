@@ -1,0 +1,14 @@
+{
+  "id": "Demo.Backoffice",
+  "name": "Demo.Backoffice",
+  "version": "0.0.0",
+  "allowTelemetry": true,
+  "extensions": [
+    {
+      "name": "Demo Backoffice Bundle",
+      "alias": "Demo.Backoffice.Bundle",
+      "type": "bundle",
+      "js": "/App_Plugins/DemoBackoffice/demo-backoffice.js"
+    }
+  ]
+}

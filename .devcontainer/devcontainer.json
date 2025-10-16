@@ -1,5 +1,10 @@
 {
     "image": "mcr.microsoft.com/devcontainers/dotnet:dev-10.0-preview",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "22"
+        }
+    },
     "customizations": {
         "vscode": {
             "extensions": [

@@ -8,6 +8,9 @@
     <CopyRazorGenerateFilesToPublishDirectory>true</CopyRazorGenerateFilesToPublishDirectory>
     <CompressionEnabled>false</CompressionEnabled><!-- Disable compression. E.g. for umbraco backoffice files. These files should be precompressed by node and not let dotnet handle it -->
   </PropertyGroup>
+<ItemGroup>
+    <ProjectReference Include="..\Demo.Backoffice\Demo.Backoffice.csproj" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Clean" Version="6.0.1" />
     <PackageReference Include="Microsoft.ICU.ICU4C.Runtime" Version="72.1.0.3" />

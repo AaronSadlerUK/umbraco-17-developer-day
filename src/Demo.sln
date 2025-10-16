@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Backoffice", "Demo.Backoffice\Demo.Backoffice.csproj", "{9EF623E8-2934-47C4-A9CE-43033370DA33}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Web", "Demo.Web\Demo.Web.csproj", "{CF684B06-6BB4-46ED-AA98-60346EA099AD}"
 EndProject
 Global
@@ -15,6 +17,18 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Debug|x64.Build.0 = Debug|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Debug|x86.Build.0 = Debug|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Release|x64.ActiveCfg = Release|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Release|x64.Build.0 = Release|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Release|x86.ActiveCfg = Release|Any CPU
+		{9EF623E8-2934-47C4-A9CE-43033370DA33}.Release|x86.Build.0 = Release|Any CPU
 		{CF684B06-6BB4-46ED-AA98-60346EA099AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF684B06-6BB4-46ED-AA98-60346EA099AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF684B06-6BB4-46ED-AA98-60346EA099AD}.Debug|x64.ActiveCfg = Debug|Any CPU
